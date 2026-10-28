@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenly - Focus Better</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Zenly</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#signup">Sign Up</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Focus better.<br />Get more done.</h1>
+    <p>Zenly ek simple productivity app hai jo aapko distraction se door rakhta hai.</p>
+    <a href="#signup" class="btn">Get Started Free</a>
+  </section>
+
+  <section class="section" id="features">
+    <h2>Features</h2>
+    <div class="grid">
+      <div class="box">
+        <div class="icon">⏱️</div>
+        <h3>Focus Timer</h3>
+        <p>Pomodoro timer se kaam ko chhote hisso me baanto.</p>
+      </div>
+      <div class="box">
+        <div class="icon">📊</div>
+        <h3>Daily Stats</h3>
+        <p>Roz ki progress aur streak ek nazar me dekho.</p>
+      </div>
+      <div class="box">
+        <div class="icon">🔕</div>
+        <h3>No Distractions</h3>
+        <p>Kaam ke time notifications band, bas focus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <h2>Pricing</h2>
+    <div class="grid">
+      <div class="box">
+        <h3>Free</h3>
+        <p class="price">₹0</p>
+        <p>Basic timer aur stats</p>
+      </div>
+      <div class="box popular">
+        <h3>Pro</h3>
+        <p class="price">₹199<small>/month</small></p>
+        <p>Sab features + themes</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="signup">
+    <h2>Join Zenly</h2>
+    <form id="signup-form">
+      <input type="email" id="email" placeholder="Apna email likho" required />
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+    <p id="msg"></p>
+  </section>
+
+  <footer>© <span id="year"></span> Zenly. Made with ❤️</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
